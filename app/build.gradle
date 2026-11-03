@@ -1,0 +1,14 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'com.slither.arena'
+    compileSdk 34
+    defaultConfig {
+        applicationId "com.slither.arena"
+        minSdk 21
+        targetSdk 34
+        versionCode 3
+        versionName "2.1"
+    }
+    buildTypes { release { minifyEnabled false } }
+    compileOptions { sourceCompatibility JavaVersion.VERSION_1_8; targetCompatibility JavaVersion.VERSION_1_8 }
+}
